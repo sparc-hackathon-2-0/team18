@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		842748A415E928CE00D0D139 /* MovieManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 842748A315E928CE00D0D139 /* MovieManager.m */; };
 		9A4BD09215E91C74002F85A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4BD09115E91C74002F85A1 /* UIKit.framework */; };
 		9A4BD09415E91C74002F85A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4BD09315E91C74002F85A1 /* Foundation.framework */; };
 		9A4BD09615E91C74002F85A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4BD09515E91C74002F85A1 /* CoreGraphics.framework */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		842748A215E928CE00D0D139 /* MovieManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieManager.h; sourceTree = "<group>"; };
+		842748A315E928CE00D0D139 /* MovieManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieManager.m; sourceTree = "<group>"; };
 		9A4BD08D15E91C74002F85A1 /* Two Thumbs Down.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Two Thumbs Down.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4BD09115E91C74002F85A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9A4BD09315E91C74002F85A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -55,6 +58,8 @@
 		9A4BD08215E91C74002F85A1 = {
 			isa = PBXGroup;
 			children = (
+				842748A215E928CE00D0D139 /* MovieManager.h */,
+				842748A315E928CE00D0D139 /* MovieManager.m */,
 				9A4BD0B215E921D6002F85A1 /* ReViewController.h */,
 				9A4BD0B315E921D6002F85A1 /* ReViewController.m */,
 				9A4BD0B415E921D6002F85A1 /* ReViewController.xib */,
@@ -174,6 +179,7 @@
 				9A4BD0A215E91C74002F85A1 /* AppDelegate.m in Sources */,
 				9A4BD0A515E91C74002F85A1 /* ViewController.m in Sources */,
 				9A4BD0B515E921D6002F85A1 /* ReViewController.m in Sources */,
+				842748A415E928CE00D0D139 /* MovieManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
