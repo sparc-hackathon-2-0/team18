@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "JSONKit.h"
 
 @interface MovieManager : NSObject
 
