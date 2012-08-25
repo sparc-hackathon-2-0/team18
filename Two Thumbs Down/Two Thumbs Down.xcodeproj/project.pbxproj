@@ -15,6 +15,8 @@
 		9A4BD0A215E91C74002F85A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4BD0A115E91C74002F85A1 /* AppDelegate.m */; };
 		9A4BD0A515E91C74002F85A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4BD0A415E91C74002F85A1 /* ViewController.m */; };
 		9A4BD0A815E91C74002F85A1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A4BD0A615E91C74002F85A1 /* ViewController.xib */; };
+		9A4BD0B515E921D6002F85A1 /* ReViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4BD0B315E921D6002F85A1 /* ReViewController.m */; };
+		9A4BD0B615E921D6002F85A1 /* ReViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A4BD0B415E921D6002F85A1 /* ReViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,9 @@
 		9A4BD0A315E91C74002F85A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9A4BD0A415E91C74002F85A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9A4BD0A715E91C74002F85A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		9A4BD0B215E921D6002F85A1 /* ReViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReViewController.h; sourceTree = "<group>"; };
+		9A4BD0B315E921D6002F85A1 /* ReViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReViewController.m; sourceTree = "<group>"; };
+		9A4BD0B415E921D6002F85A1 /* ReViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +55,9 @@
 		9A4BD08215E91C74002F85A1 = {
 			isa = PBXGroup;
 			children = (
+				9A4BD0B215E921D6002F85A1 /* ReViewController.h */,
+				9A4BD0B315E921D6002F85A1 /* ReViewController.m */,
+				9A4BD0B415E921D6002F85A1 /* ReViewController.xib */,
 				9A4BD09715E91C74002F85A1 /* Two Thumbs Down */,
 				9A4BD09015E91C74002F85A1 /* Frameworks */,
 				9A4BD08E15E91C74002F85A1 /* Products */,
@@ -151,6 +159,7 @@
 			files = (
 				9A4BD09C15E91C74002F85A1 /* InfoPlist.strings in Resources */,
 				9A4BD0A815E91C74002F85A1 /* ViewController.xib in Resources */,
+				9A4BD0B615E921D6002F85A1 /* ReViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +173,7 @@
 				9A4BD09E15E91C74002F85A1 /* main.m in Sources */,
 				9A4BD0A215E91C74002F85A1 /* AppDelegate.m in Sources */,
 				9A4BD0A515E91C74002F85A1 /* ViewController.m in Sources */,
+				9A4BD0B515E921D6002F85A1 /* ReViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
