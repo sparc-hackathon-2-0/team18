@@ -277,6 +277,7 @@
 				9A4BD0AD15E91C74002F85A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
